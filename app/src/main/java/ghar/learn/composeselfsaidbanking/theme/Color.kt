@@ -1,4 +1,4 @@
-package com.example.composeselfsaidbanking.ui.theme
+package ghar.learn.composeselfsaidbanking.theme
 
 import androidx.compose.ui.graphics.Color
 

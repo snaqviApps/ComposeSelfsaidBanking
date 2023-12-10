@@ -1,4 +1,4 @@
-package com.example.composeselfsaidbanking.data
+package ghar.learn.composeselfsaidbanking.data
 
 import androidx.compose.ui.graphics.vector.ImageVector
 

@@ -1,4 +1,4 @@
-package com.example.composeselfsaidbanking
+package ghar.learn.composeselfsaidbanking
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -18,13 +18,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.composeselfsaidbanking.ui.theme.ComposeSelfSaidBankingTheme
+import ghar.learn.composeselfsaidbanking.theme.ComposeSelfSaidBankingTheme
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
+//            ComposeSelfSaidBankingTheme {
             ComposeSelfSaidBankingTheme {
                 // A surface container using the 'background' color from the theme
 
@@ -33,7 +34,6 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-
                     // home UI-Interactions
                     HomeScreen()
                 }
@@ -61,13 +61,13 @@ fun HomeScreen() {
             BottomNavigationBar()
         }
     ) { padding ->
-        Column(
+        Column (
             modifier = Modifier
                 .fillMaxSize()
                 .padding(padding)
         ) {
-//            WalletSection()             // TopBar-section
-//            CardsSection()             // Card-section
+            WalletSection()                             // TopBar-section
+//            CardsSection()                            // Card-section
             Spacer(modifier = Modifier.height(16.dp))
 //            FianceSection()
 //            CurrenciesSection()

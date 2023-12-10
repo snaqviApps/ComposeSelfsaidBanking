@@ -1,4 +1,4 @@
-package com.example.composeselfsaidbanking.ui.theme
+package ghar.learn.composeselfsaidbanking.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

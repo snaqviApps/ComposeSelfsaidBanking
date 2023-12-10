@@ -1,4 +1,4 @@
-package com.example.composeselfsaidbanking
+package ghar.learn.composeselfsaidbanking
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Row
@@ -15,7 +15,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.composeselfsaidbanking.data.BottomNavigation
+import ghar.learn.composeselfsaidbanking.data.BottomNavigation
 
 val items : List<BottomNavigation> = listOf(
     BottomNavigation(

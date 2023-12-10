@@ -1,4 +1,4 @@
-package com.example.composeselfsaidbanking.ui.theme
+package ghar.learn.composeselfsaidbanking.theme
 
 import android.app.Activity
 import android.os.Build

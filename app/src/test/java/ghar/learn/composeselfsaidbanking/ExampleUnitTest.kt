@@ -1,4 +1,4 @@
-package com.example.composeselfsaidbanking
+package ghar.learn.composeselfsaidbanking
 
 import org.junit.Test
 
