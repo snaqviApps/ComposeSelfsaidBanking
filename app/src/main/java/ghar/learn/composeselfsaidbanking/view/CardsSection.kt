@@ -1,4 +1,4 @@
-package ghar.learn.composeselfsaidbanking
+package ghar.learn.composeselfsaidbanking.view
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -23,7 +23,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.composeselfsaidbanking.data.Card
+import ghar.learn.composeselfsaidbanking.R
+import ghar.learn.composeselfsaidbanking.data.Card
 import ghar.learn.composeselfsaidbanking.theme.BlueEnd
 import ghar.learn.composeselfsaidbanking.theme.BlueStart
 import ghar.learn.composeselfsaidbanking.theme.GreenEnd

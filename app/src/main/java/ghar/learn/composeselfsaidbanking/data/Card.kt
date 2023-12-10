@@ -1,4 +1,4 @@
-package com.example.composeselfsaidbanking.data
+package ghar.learn.composeselfsaidbanking.data
 
 import androidx.compose.ui.graphics.Brush
 
@@ -8,6 +8,4 @@ data class Card(
     val cardName: String,
     val cardBalance: Double,
     val color: Brush
-) {
-
-}
+)

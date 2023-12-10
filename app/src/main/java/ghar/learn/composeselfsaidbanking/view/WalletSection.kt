@@ -1,4 +1,4 @@
-package ghar.learn.composeselfsaidbanking
+package ghar.learn.composeselfsaidbanking.view
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable

@@ -20,6 +20,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import ghar.learn.composeselfsaidbanking.theme.ComposeSelfSaidBankingTheme
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
+import ghar.learn.composeselfsaidbanking.view.CardsSection
+import ghar.learn.composeselfsaidbanking.view.WalletSection
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
