@@ -21,6 +21,7 @@ import androidx.compose.ui.unit.dp
 import ghar.learn.composeselfsaidbanking.theme.ComposeSelfSaidBankingTheme
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import ghar.learn.composeselfsaidbanking.view.CardsSection
+import ghar.learn.composeselfsaidbanking.view.CurrenciesSection
 import ghar.learn.composeselfsaidbanking.view.FianceSection
 import ghar.learn.composeselfsaidbanking.view.WalletSection
 
@@ -70,10 +71,11 @@ fun HomeScreen() {
                 .padding(padding)
         ) {
             WalletSection()                             // TopBar-section
-            CardsSection()                            // Card-section
+            CardsSection()                              // Card-section
             Spacer(modifier = Modifier.height(16.dp))
             FianceSection()
-//            CurrenciesSection()
+            Spacer(modifier = Modifier.height(12.dp))
+            CurrenciesSection()
         }
     }
 }
