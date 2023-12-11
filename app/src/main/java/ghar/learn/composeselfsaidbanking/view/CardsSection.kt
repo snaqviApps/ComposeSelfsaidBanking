@@ -78,8 +78,8 @@ fun getGradient(purpleStart: Color, purpleEnd: Color): Brush {
 @Preview
 @Composable
 fun CardsSection(){
-    LazyRow {                           // RecyclerView (here horizontal)
-        items(cards.size){ index: Int ->        // like For-loop till the card-size is not Zero
+    LazyRow {                                    // RecyclerView (here horizontal)
+        items(cards.size){ index: Int ->         // like For-loop till the card-size is not Zero
             CardItem(index)
         }
     }
