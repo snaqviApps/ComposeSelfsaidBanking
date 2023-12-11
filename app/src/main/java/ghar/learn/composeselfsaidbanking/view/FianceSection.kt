@@ -34,25 +34,26 @@ import androidx.compose.ui.unit.sp
 val finances: List<Finance> = listOf(
     Finance(
         icon = Icons.Rounded.StarHalf,
-        name= "My\nBusiness",
+        name = "My\nBusiness",
         background = OrangeStart
     ),
     Finance(
         icon = Icons.Rounded.Wallet,
-        name= "My\nWallet",
+        name = "My\nWallet",
         background = BlueStart
     ),
     Finance(
         icon = Icons.Rounded.StarHalf,
-        name= "Finance\nAnalytics",
+        name = "Finance\nAnalytics",
         background = PurpleStart
     ),
     Finance(
         icon = Icons.Rounded.MonetizationOn,
-        name= "My\nTransactions",
+        name = "My\nTransactions",
         background = GreenStart
     )
 )
+
 @Preview
 @Composable
 fun FianceSection() {
@@ -65,7 +66,7 @@ fun FianceSection() {
             modifier = Modifier.padding(16.dp)
         )
         LazyRow {
-            items(finances.size){
+            items(finances.size) {
                 FinanceItem(it)
             }
         }
@@ -76,7 +77,7 @@ fun FianceSection() {
 fun FinanceItem(index: Int) {
     val finance = finances[index]
     var lastPaddingEnd: Dp = 0.dp
-    if(index == finances.size - 1) {
+    if (index == finances.size - 1) {
         lastPaddingEnd = 16.dp
     }
 
@@ -85,7 +86,7 @@ fun FinanceItem(index: Int) {
             modifier = Modifier
                 .clip(RoundedCornerShape(25.dp))
                 .background(MaterialTheme.colorScheme.secondaryContainer)
-                .size(120.dp)
+                .size(124.dp)
                 .clickable { }
                 .padding(13.dp),
             verticalArrangement = Arrangement.SpaceBetween
@@ -106,8 +107,8 @@ fun FinanceItem(index: Int) {
                 text = finance.name,
                 color = MaterialTheme.colorScheme.onSecondaryContainer,
                 fontWeight = FontWeight.SemiBold,
-
-                )
+                softWrap = false
+            )
         }
     }
 }
